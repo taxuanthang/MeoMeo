@@ -9,7 +9,7 @@ from vgg16 import *
 POSITIVE_DATASET_PATH_TEST="./datasets/detection/positive_test"
 NEGATIVE_DATASET_PATH_TEST="./datasets/detection/negative_test"
 
-matplotlib.use('TkAgg')
+matplotlib.use('agg')
 
 
 TEST_ONLY = False
