@@ -1,6 +1,7 @@
 from bounding_box import *
 from vgg16 import *
 import matplotlib.pyplot as plt
+import joblib
 
 
 def detect_and_recognize(img, out_path, scale=0.5, detect_only = False, show = False, save=True):
@@ -21,7 +22,7 @@ def detect_and_recognize(img, out_path, scale=0.5, detect_only = False, show = F
 def detect_main(img_in, img_out, out_path, scale=0.5, show=False, save = True):
     hog_converter = cv2.HOGDescriptor((64, 64), (16, 16), (8, 8), (8, 8), 9)
 
-    svc = pickle.load(open("./weights/detect_svm_good.pkl", 'rb'))
+    svc = joblib.load(open("./detect_svm.pkl", 'rb'))
 
     bounding_boxes = BoundingBoxes(img_in, img_out, scale, hog_converter, svc, 80, 80, 128, 128, 16, 4)
 

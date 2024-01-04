@@ -5,6 +5,7 @@ from sklearn.model_selection import train_test_split
 from detection_dataset import *
 import pickle
 from vgg16 import *
+import joblib
 
 POSITIVE_DATASET_PATH_TEST="./datasets/detection/positive_test"
 NEGATIVE_DATASET_PATH_TEST="./datasets/detection/negative_test"
@@ -92,7 +93,7 @@ if __name__ == "__main__":
 
 
     if TEST_ONLY:
-        svc = pickle.load(open("./detect_svm.pkl", 'rb'))
+        svc = joblib.load(open("./detect_svm.pkl", 'rb'))
         svm_face = SVM(svc, None, hog_converter)
         face_detection_test(svm_face, 0)
         face_detection_test(svm_face, 1)
@@ -114,7 +115,7 @@ if __name__ == "__main__":
 
     pkl_filename = "detect_svm.pkl"
     with open(pkl_filename, 'wb') as file:
-        pickle.dump(svm_face.svc, file)
+        joblib.dump(svm_face.svc, file)
 
 
     #run_detect()

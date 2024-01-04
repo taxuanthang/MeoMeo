@@ -65,7 +65,7 @@ class BoundingBoxes:
             y_range = np.arange(0, self.image.shape[0] - s, self.sliding_stride)
             x_y = np.transpose([np.tile(x_range, len(y_range)), np.repeat(y_range, len(x_range))])
             bounding_boxes_curr = np.hstack((x_y, np.ones((x_y.shape[0],1)) * s,  np.ones((x_y.shape[0],1))*s))
-            self.all_bounding_boxes.extend(bounding_boxes_curr.astype(np.int))
+            self.all_bounding_boxes.extend(bounding_boxes_curr.astype(int))
 
 
 
@@ -225,7 +225,7 @@ def run_detect_test():
 
     hog_converter = cv2.HOGDescriptor((64, 64), (16, 16), (8, 8), (8, 8), 9)
 
-    svc = pickle.load(open("./detect_svm_good.pkl", 'rb'))
+    svc = joblib.load(open("./detect_svm.pkl", 'rb'))
 
 
 
