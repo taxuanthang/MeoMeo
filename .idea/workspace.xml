@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ead93f4-5e2f-481f-b528-759229e43bb6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/bounding_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/bounding_box.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/demo.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svm.py" beforeDir="false" afterPath="$PROJECT_DIR$/svm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recognition_t.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition_t.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linear_classifier_t.py" beforeDir="false" afterPath="$PROJECT_DIR$/linear_classifier_t.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="9f9567c3-8da2-4c40-8b8b-f613179f0f21" />
+        <option name="url" value="https://github.com/taxuanthang/MeoMeo.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/pickle.pyi" root0="FORCE_HIGHLIGHTING" />
@@ -296,6 +307,22 @@
       <workItem from="1704387654045" duration="953000" />
       <workItem from="1704388624195" duration="276000" />
       <workItem from="1704388914007" duration="436000" />
+      <workItem from="1704389434438" duration="217000" />
+      <workItem from="1704437985237" duration="3667000" />
+      <workItem from="1704442533458" duration="422000" />
+      <workItem from="1704442971579" duration="1728000" />
+      <workItem from="1704444720989" duration="173000" />
+      <workItem from="1704444908739" duration="217000" />
+      <workItem from="1704445138463" duration="181000" />
+      <workItem from="1704446097526" duration="385000" />
+      <workItem from="1704446498598" duration="2897000" />
+      <workItem from="1704449435834" duration="34000" />
+      <workItem from="1704449562723" duration="803000" />
+      <workItem from="1704458269025" duration="688000" />
+      <workItem from="1704458978709" duration="437000" />
+      <workItem from="1704459430649" duration="378000" />
+      <workItem from="1704459825226" duration="5090000" />
+      <workItem from="1704549532538" duration="7645000" />
     </task>
     <servers />
   </component>

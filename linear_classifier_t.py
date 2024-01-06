@@ -45,34 +45,16 @@ class LinearClassifier(object):
             # Store the data in X_batch and their corresponding labels in           #
             # y_batch; after sampling X_batch should have shape (dim, batch_size)   #
             # and y_batch should have shape (batch_size,)                           #
-            #                                                                       #
-            # Hint: Use np.random.choice to generate indices. Sampling with         #
-            # replacement is faster than sampling without replacement.              #
-            #########################################################################
-            # pass
             idxs = np.random.choice(num_train, batch_size)
             X_batch = X[idxs, :]
             y_batch = y[idxs]
             #print(X_batch.shape, y_batch)
-            #########################################################################
-            #                       END OF YOUR CODE                                #
-            #########################################################################
-
             # evaluate loss and gradient
             loss, grad = self.loss(X_batch, y_batch, reg)
             loss_history.append(loss)
-
             # perform parameter update
-            #########################################################################
-            # TODO:                                                                 #
             # Update the weights using the gradient and the learning rate.          #
-            #########################################################################
-            # pass
             self.W -= learning_rate * grad
-            #########################################################################
-            #                       END OF YOUR CODE                                #
-            #########################################################################
-
             if verbose and it % 100 == 0:
                 print(
                 'iteration %d / %d: loss %f' % (it, num_iters, loss))
