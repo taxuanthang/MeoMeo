@@ -12,7 +12,6 @@ bin-release/
 *.air
 *.ipa
 *.apk
-datasets/
 __pycache__/
 *.pkl
 weights/
