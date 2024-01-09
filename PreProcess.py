@@ -10,9 +10,9 @@ def PreProc(X,a,b):
         img = img.astype('float64')  # visualize the mean image
         list.append(img)
     X = np.array(list)
-    print(X.shape)
+    print("The datasets before feature-engineering: ",X.shape)
     X = np.reshape(X, (X.shape[0], -1))
-    print('Training data shape: ', X.shape)
+    print("Datasets shape after feature-engineering: ", X.shape)
     return X
 
 def CalcMean(X,a,b):
@@ -20,7 +20,7 @@ def CalcMean(X,a,b):
     import matplotlib.pyplot as plt
     # first: compute the image mean based on the training data
     mean_image = np.mean(X, axis=0)
-    print(mean_image[:10])  # print a few of the elements
+    print("print a few of the elements: ",mean_image[:10])  # print a few of the elements
     plt.figure(figsize=(4, 4))
     plt.imshow(mean_image.reshape((a, b, 3)).astype('uint8'))  # visualize the mean image
     plt.show()
@@ -30,5 +30,5 @@ def Minus_mean(X,mean):
     return X
 def Bias_trick(X):
     X = np.hstack([X, np.ones((X.shape[0], 1))])
-    print(X.shape)  # , X_dev.shape
+    print("The shape of set after Bias-trick is: ",X.shape)  # , X_dev.shape
     return X

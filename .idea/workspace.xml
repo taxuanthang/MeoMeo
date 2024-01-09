@@ -5,7 +5,83 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ead93f4-5e2f-481f-b528-759229e43bb6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Load_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/Load_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PreProcess.py" beforeDir="false" afterPath="$PROJECT_DIR$/PreProcess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Recognition_t.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Recognition_t.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bounding_box.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cat_to_name.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_107_214_41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_118_145_56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_1217_99_131.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_130_130_88.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_136_163_61.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_145_105_27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_145_277_60.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_149_124_53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_149_149_39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_149_174_127.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_155_121_117.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_156_569_33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_158_184_153.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_163_218_121.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_170_113_140.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_173_138_84.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_204_113_51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_204_181_47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_205_268_46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_20_130_118.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_245_163_102.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_245_272_100.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_273_249_157.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_284_205_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_295_363_122.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_300_214_112.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_303_189_154.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_303_189_79.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_308_88_134.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_311_363_91.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_328_209_155.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_328_209_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_328_238_128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_341_159_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_341_360_58.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_341_68_81.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_353_207_31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_363_138_98.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_363_174_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_363_253_129.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_373_290_106.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_381_109_27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_386_159_105.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_394_166_126.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_394_166_59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_398_124_66.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_404_115_85.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_415_145_83.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_415_290_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_417_170_145.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_429_187_78.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_432_682_108.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_450_86_146.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_482_251_34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_486_266_159.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_493_113_125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_498_124_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_502_173_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/recognition/train/006_akiyama_mio/face_506_237_136.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/sample1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/sample2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/sample2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/detection_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hog_function.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/negative_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_and_test_datasets_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vgg16.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weights/detect_svm_good.pkl" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +168,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.linear_classifier_t">
+  <component name="RunManager" selected="Python.svm">
     <configuration name="Load_image" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Anime-Face-Detection-and-Recognition" />
       <option name="ENV_FILES" value="" />
@@ -108,29 +184,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Load_image.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="labelled_data_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Anime-Face-Detection-and-Recognition" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/label_data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/label_data/labelled_data_generator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,6 +238,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="svm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Anime-Face-Detection-and-Recognition" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/svm.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="train_and_test_datasets_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Anime-Face-Detection-and-Recognition" />
       <option name="ENV_FILES" value="" />
@@ -210,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.svm" />
         <item itemvalue="Python.linear_classifier_t" />
         <item itemvalue="Python.linear_svm_t" />
         <item itemvalue="Python.Load_image" />
         <item itemvalue="Python.train_and_test_datasets_generator" />
-        <item itemvalue="Python.labelled_data_generator" />
       </list>
     </recent_temporary>
   </component>
@@ -324,6 +400,11 @@
       <workItem from="1704617862394" duration="7340000" />
       <workItem from="1704643881174" duration="1006000" />
       <workItem from="1704645416901" duration="144000" />
+      <workItem from="1704680251902" duration="759000" />
+      <workItem from="1704770099679" duration="4679000" />
+      <workItem from="1704783189977" duration="1312000" />
+      <workItem from="1704786828246" duration="9659000" />
+      <workItem from="1704801108770" duration="7423000" />
     </task>
     <servers />
   </component>
@@ -342,12 +423,12 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Anime_Face_Detection_and_Recognition$linear_svm_t.coverage" NAME="linear_svm_t Coverage Results" MODIFIED="1704293706846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Anime_Face_Detection_and_Recognition$linear_classifier_t.coverage" NAME="linear_classifier_t Coverage Results" MODIFIED="1704336736367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Anime_Face_Detection_and_Recognition$linear_svm_t.coverage" NAME="linear_svm_t Coverage Results" MODIFIED="1704293706846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Anime_Face_Detection_and_Recognition$detection_dataset.coverage" NAME="detection_dataset Coverage Results" MODIFIED="1703921896983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Anime_Face_Detection_and_Recognition$a.coverage" NAME="a Coverage Results" MODIFIED="1703921867949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Anime_Face_Detection_and_Recognition$main.coverage" NAME="main Coverage Results" MODIFIED="1703931567617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Anime_Face_Detection_and_Recognition$svm.coverage" NAME="svm Coverage Results" MODIFIED="1703931641782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Anime_Face_Detection_and_Recognition$svm.coverage" NAME="svm Coverage Results" MODIFIED="1704769822561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Anime_Face_Detection_and_Recognition$traittypes.coverage" NAME="traittypes Coverage Results" MODIFIED="1702747100979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../Anaconda/Lib/site-packages/notebook" />
     <SUITE FILE_PATH="coverage/Anime_Face_Detection_and_Recognition$vgg16.coverage" NAME="vgg16 Coverage Results" MODIFIED="1703924827066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Anime_Face_Detection_and_Recognition$negative_generator.coverage" NAME="negative_generator Coverage Results" MODIFIED="1703922109405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

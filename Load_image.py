@@ -42,7 +42,7 @@ def load_images_from_folder_sep(main_folder, test_size=0.2):
                     # Resize the image if needed
                     images.append(img)
                     labels.append(label)
-            print("Training: ",class_name, len(images) - old)
+            print("Number of picture in training class: ",class_name, len(images) - old)
             old = len(images_val)
             # You can use X_val_class and y_val_class similarly for the validation set
             for filename, label in zip(X_val_class, y_val_class):
@@ -52,7 +52,7 @@ def load_images_from_folder_sep(main_folder, test_size=0.2):
                     # Resize the image if needed
                     images_val.append(img)
                     labels_val.append(label)
-            print("Validating: ",class_name, len(images_val) - old)
+            print("Number of picture in validating class: ",class_name, len(images_val) - old)
     return images, labels, images_val, labels_val
 
 
@@ -77,7 +77,7 @@ def load_images_from_folder(folder_path):
                     # Append the image to the list
                     image_list.append(image)
                 labels.append(folder_name)
-            print("Testing: ",folder_name, len(image_list) - old)
+            print("Number of picture in testing class: ",folder_name, len(image_list) - old)
     return image_list, labels
 
 
