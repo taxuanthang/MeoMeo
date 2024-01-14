@@ -1,21 +1,14 @@
 # Anime Face Detection and Recognition
-CSC420 Fall 2019 Project
 
 ## Team Members:
-Zhicheng Yan<br>
-Zhihong Wang
+Ta XUAN THANG 20213589
+TRAN DANH KIET 20213572
 
-## Ideas:
-Anime becomes more and more popular. Sometimes, people will find interesting anime characters from images without recognizing their information (e.g. the name of the character). We intend to help anime enthusiasts to find the information of characters from their anime images. For our project, we are planning to perform the anime face detection on images. It will draw a rectangular box on the face of the input anime image. After the detection, we will perform the recognition, which means our project will tell the character's information from the anime face by classification.
+# LIBRARIES
+we use common libraries include: numpy, matplotlib.pyplot, itertools, sklearn.metrics, math, time, PIL, pickle, random, cv2, os, sklearn.model_selection
 
-## Tasks:
+We are using pycharm, the simple way to import these module is going into the package and import it same to the name to the env. folder
 
-### 1. Get Datasets
-Find anime image datasets or collect anime images and create own datasets, which are large enough and contain recognizable anime faces. Datasets with labels should be preferable. We may resize them if needed.
-
-### 2. Anime Face Detection
-Detect and locate anime faces from images. When getting an anime image, the faces from the images will be highlighted by drawing rectangles. Detecting whether the rectangle part of the image is an anime face by training the classifier(Support Vector Machine) with datasets(Histogram of Gradiants). And perform a sliding window algorithm & bounding box for a whole image.
-
-### 3. Anime Face Recognition
-When input an anime face image, we will get the information of the character from the face. We are planning to train and use the neural network (VGG16) to classify the anime faces by their labels from the datasets.
+Maybe when you using u will meet some error to torchvision, and some module such as my pickle right here, you can check the suitable version for it because the new version of module have delete some function from the old one so might be a chance that the old project only work with the old module, and unfortunately the old module can't run on the new version of python. You can solve this by install the old python on the other environment on your computer.
+Thanks for being patient to read to here, Mrs.Hai is the best
 
