@@ -109,3 +109,6 @@ def svm_loss_vectorized(W, X, y, reg):
   #############################################################################
 
   return loss, dW
+
+def something_loss(W, X, y, reg):
+  return None
